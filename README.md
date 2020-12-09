@@ -22,7 +22,7 @@ This is the complete and functional Razer Merchant Services iOS payment module t
 
 CocoaPods is a dependency manager for Cocoa projects. For usage and installation instructions, visit their website. To integrate RMS XDK into your Xcode project using CocoaPods, specify it in your Podfile:
 
-    Step 1 - pod 'rms-mobile-xdk-cocoapods', '~> 3.28.0'
+    Step 1 - pod 'rms-mobile-xdk-cocoapods', '~> 3.29.1'
     Step 2a - Create bridging header if using Swift.
     Step 2b - Insert #import <MOLPayXDK/MOLPayLib.h> to bridging header.
 
