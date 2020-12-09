@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		567BEC242580874C00A15343 /* MOLPayXDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 567BEC222580874C00A15343 /* MOLPayXDK.bundle */; };
+		567BEC252580874C00A15343 /* MOLPayXDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 567BEC232580874C00A15343 /* MOLPayXDK.framework */; };
 		EB2625981C80403200BE895D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2625971C80403200BE895D /* main.m */; };
 		EB26259B1C80403200BE895D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB26259A1C80403200BE895D /* AppDelegate.m */; };
 		EB26259E1C80403200BE895D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB26259D1C80403200BE895D /* ViewController.m */; };
 		EB2625A11C80403200BE895D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB26259F1C80403200BE895D /* Main.storyboard */; };
 		EB2625A31C80403200BE895D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB2625A21C80403200BE895D /* Assets.xcassets */; };
 		EB2625A61C80403200BE895D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB2625A41C80403200BE895D /* LaunchScreen.storyboard */; };
-		EB69EA361CD89352006985C3 /* MOLPayXDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EB69EA341CD89352006985C3 /* MOLPayXDK.bundle */; };
-		EB69EA371CD89352006985C3 /* MOLPayXDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB69EA351CD89352006985C3 /* MOLPayXDK.framework */; };
 		EB844ED81CEB0063009870D6 /* custom.css in Resources */ = {isa = PBXBuildFile; fileRef = EB844ED71CEB0063009870D6 /* custom.css */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		567BEC222580874C00A15343 /* MOLPayXDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MOLPayXDK.bundle; sourceTree = "<group>"; };
+		567BEC232580874C00A15343 /* MOLPayXDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOLPayXDK.framework; sourceTree = "<group>"; };
 		EB2625931C80403200BE895D /* MOLPayXDKExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MOLPayXDKExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB2625971C80403200BE895D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EB2625991C80403200BE895D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,8 +31,6 @@
 		EB2625A21C80403200BE895D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB2625A51C80403200BE895D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB2625A71C80403200BE895D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EB69EA341CD89352006985C3 /* MOLPayXDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MOLPayXDK.bundle; sourceTree = "<group>"; };
-		EB69EA351CD89352006985C3 /* MOLPayXDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOLPayXDK.framework; sourceTree = "<group>"; };
 		EB844ED71CEB0063009870D6 /* custom.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = custom.css; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -39,7 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB69EA371CD89352006985C3 /* MOLPayXDK.framework in Frameworks */,
+				567BEC252580874C00A15343 /* MOLPayXDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,8 +49,8 @@
 		EB26258A1C80403200BE895D = {
 			isa = PBXGroup;
 			children = (
-				EB69EA341CD89352006985C3 /* MOLPayXDK.bundle */,
-				EB69EA351CD89352006985C3 /* MOLPayXDK.framework */,
+				567BEC222580874C00A15343 /* MOLPayXDK.bundle */,
+				567BEC232580874C00A15343 /* MOLPayXDK.framework */,
 				EB2625951C80403200BE895D /* MOLPayXDKExample */,
 				EB2625941C80403200BE895D /* Products */,
 			);
@@ -150,8 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB2625A61C80403200BE895D /* LaunchScreen.storyboard in Resources */,
+				567BEC242580874C00A15343 /* MOLPayXDK.bundle in Resources */,
 				EB844ED81CEB0063009870D6 /* custom.css in Resources */,
-				EB69EA361CD89352006985C3 /* MOLPayXDK.bundle in Resources */,
 				EB2625A31C80403200BE895D /* Assets.xcassets in Resources */,
 				EB2625A11C80403200BE895D /* Main.storyboard in Resources */,
 			);

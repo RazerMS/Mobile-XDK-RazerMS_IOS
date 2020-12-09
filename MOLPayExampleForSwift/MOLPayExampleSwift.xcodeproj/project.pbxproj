@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		567BEC282580A85100A15343 /* MOLPayXDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 567BEC262580A85000A15343 /* MOLPayXDK.framework */; };
+		567BEC292580A85100A15343 /* MOLPayXDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 567BEC272580A85100A15343 /* MOLPayXDK.bundle */; };
 		EB5F8EFF1FD5060900415272 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5F8EFE1FD5060900415272 /* AppDelegate.swift */; };
 		EB5F8F011FD5060900415272 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5F8F001FD5060900415272 /* ViewController.swift */; };
 		EB5F8F041FD5060900415272 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB5F8F021FD5060900415272 /* Main.storyboard */; };
 		EB5F8F061FD5060900415272 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB5F8F051FD5060900415272 /* Assets.xcassets */; };
 		EB5F8F091FD5060900415272 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB5F8F071FD5060900415272 /* LaunchScreen.storyboard */; };
-		EB5F8F241FD509C400415272 /* MOLPayXDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EB5F8F221FD509C300415272 /* MOLPayXDK.bundle */; };
-		EB5F8F251FD509C400415272 /* MOLPayXDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB5F8F231FD509C400415272 /* MOLPayXDK.framework */; };
 		EB5F8F2E1FD54CBC00415272 /* custom.css in Resources */ = {isa = PBXBuildFile; fileRef = EB5F8F2D1FD54CBC00415272 /* custom.css */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		567BEC262580A85000A15343 /* MOLPayXDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOLPayXDK.framework; sourceTree = "<group>"; };
+		567BEC272580A85100A15343 /* MOLPayXDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MOLPayXDK.bundle; sourceTree = "<group>"; };
 		EB5F8EFB1FD5060900415272 /* MOLPayExampleSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MOLPayExampleSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB5F8EFE1FD5060900415272 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB5F8F001FD5060900415272 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,8 +27,6 @@
 		EB5F8F051FD5060900415272 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB5F8F081FD5060900415272 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB5F8F0A1FD5060900415272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EB5F8F221FD509C300415272 /* MOLPayXDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MOLPayXDK.bundle; sourceTree = "<group>"; };
-		EB5F8F231FD509C400415272 /* MOLPayXDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOLPayXDK.framework; sourceTree = "<group>"; };
 		EB5F8F2A1FD50BFD00415272 /* MOLPayXDKBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MOLPayXDKBridge.h; sourceTree = "<group>"; };
 		EB5F8F2D1FD54CBC00415272 /* custom.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = custom.css; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -36,7 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB5F8F251FD509C400415272 /* MOLPayXDK.framework in Frameworks */,
+				567BEC282580A85100A15343 /* MOLPayXDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,8 +46,8 @@
 		EB5F8EF21FD5060900415272 = {
 			isa = PBXGroup;
 			children = (
-				EB5F8F221FD509C300415272 /* MOLPayXDK.bundle */,
-				EB5F8F231FD509C400415272 /* MOLPayXDK.framework */,
+				567BEC272580A85100A15343 /* MOLPayXDK.bundle */,
+				567BEC262580A85000A15343 /* MOLPayXDK.framework */,
 				EB5F8EFD1FD5060900415272 /* MOLPayExampleSwift */,
 				EB5F8EFC1FD5060900415272 /* Products */,
 			);
@@ -137,8 +137,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB5F8F091FD5060900415272 /* LaunchScreen.storyboard in Resources */,
+				567BEC292580A85100A15343 /* MOLPayXDK.bundle in Resources */,
 				EB5F8F2E1FD54CBC00415272 /* custom.css in Resources */,
-				EB5F8F241FD509C400415272 /* MOLPayXDK.bundle in Resources */,
 				EB5F8F061FD5060900415272 /* Assets.xcassets in Resources */,
 				EB5F8F041FD5060900415272 /* Main.storyboard in Resources */,
 			);
