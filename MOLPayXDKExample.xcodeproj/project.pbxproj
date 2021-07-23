@@ -120,7 +120,7 @@
 				TargetAttributes = {
 					EB2625921C80403200BE895D = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = TW9T5TAQKM;
+						DevelopmentTeam = 66L78PU46C;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -280,7 +280,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 66L78PU46C;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
