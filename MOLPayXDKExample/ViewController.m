@@ -37,14 +37,14 @@
     // Setup payment details
     NSDictionary * paymentRequestDict = @{
                                           @"mp_amount": @"1.10", // Mandatory
-                                          @"mp_username": @"xxxxxx", // Mandatory
-                                          @"mp_password": @"xxxxxx", // Mandatory
-                                          @"mp_merchant_ID": @"xxxxxx", // Mandatory
-                                          @"mp_app_name": @"xxxxxx", // Mandatory
-                                          @"mp_order_ID": @"", // Mandatory
+                                          @"mp_username": @"", // Mandatory
+                                          @"mp_password": @"", // Mandatory
+                                          @"mp_merchant_ID": @"", // Mandatory
+                                          @"mp_app_name": @"", // Mandatory
+                                          @"mp_order_ID": @"1234567890", // Mandatory
                                           @"mp_currency": @"MYR", // Mandatory
                                           @"mp_country": @"MY", // Mandatory
-                                          @"mp_verification_key": @"xxxxxx", // Mandatory
+                                          @"mp_verification_key": @"", // Mandatory
                                           @"mp_channel": @"multi", // Optional
                                           @"mp_bill_description": @"description", // Optional
                                           @"mp_bill_name": @"name", // Optional
@@ -85,7 +85,14 @@
                                                                            target:self
                                                                            action:@selector(closemolpay:)];
     mp.navigationItem.hidesBackButton = YES;
-    
+    if (@available(iOS 15.0, *)) {
+        UINavigationBarAppearance *appearance = [[UINavigationBarAppearance alloc] init];
+        [appearance configureWithOpaqueBackground];
+        appearance.titleTextAttributes = @{NSForegroundColorAttributeName : UIColor.whiteColor};
+        appearance.backgroundColor = [UIColor whiteColor];
+        [UINavigationBar appearance].standardAppearance = appearance;
+        [UINavigationBar appearance].scrollEdgeAppearance = appearance;
+    }
     // Push method (This requires host navigation controller to be available at this point of runtime process,
     // refer AppDelegate.m for sample Navigation Controller implementations)
     //    [self.navigationController pushViewController:mp animated:YES];
