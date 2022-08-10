@@ -50,6 +50,7 @@
         @"mp_bill_name": @"name", // Optional
         @"mp_bill_email": @"example@email.com", // Optional
         @"mp_bill_mobile": @"+601234556789", // Optional
+        //@"mp_ap_merchant_ID": @"merchant.com.rms.mobile.applepay", // Optional, Apple Pay Merchant ID
         //@"mp_channel_editing": [NSNumber numberWithBool:NO], // Optional
         //@"mp_editing_enabled": [NSNumber numberWithBool:NO], // Optional
         //@"mp_dev_mode": [NSNumber numberWithBool:YES] // Optional, enable for online sandbox testing.

@@ -20,6 +20,7 @@
 /* Begin PBXFileReference section */
 		567BEC262580A85000A15343 /* MOLPayXDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOLPayXDK.framework; sourceTree = "<group>"; };
 		567BEC272580A85100A15343 /* MOLPayXDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MOLPayXDK.bundle; sourceTree = "<group>"; };
+		E1FC62B328A3B81100628EA6 /* MOLPayExampleSwift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MOLPayExampleSwift.entitlements; sourceTree = "<group>"; };
 		EB5F8EFB1FD5060900415272 /* MOLPayExampleSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MOLPayExampleSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB5F8EFE1FD5060900415272 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB5F8F001FD5060900415272 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +65,7 @@
 		EB5F8EFD1FD5060900415272 /* MOLPayExampleSwift */ = {
 			isa = PBXGroup;
 			children = (
+				E1FC62B328A3B81100628EA6 /* MOLPayExampleSwift.entitlements */,
 				EB5F8F2D1FD54CBC00415272 /* custom.css */,
 				EB5F8EFE1FD5060900415272 /* AppDelegate.swift */,
 				EB5F8F001FD5060900415272 /* ViewController.swift */,
@@ -290,9 +292,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = MOLPayExampleSwift/MOLPayExampleSwift.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TW9T5TAQKM;
+				DEVELOPMENT_TEAM = 457K9R3B22;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -300,7 +303,7 @@
 				);
 				INFOPLIST_FILE = MOLPayExampleSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.molpay.mobile.MOLPayExampleSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = rms.mobile.demo.applepay2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/MOLPayExampleSwift/MOLPayXDKBridge.h";
@@ -315,9 +318,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = MOLPayExampleSwift/MOLPayExampleSwift.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TW9T5TAQKM;
+				DEVELOPMENT_TEAM = 457K9R3B22;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -325,7 +329,7 @@
 				);
 				INFOPLIST_FILE = MOLPayExampleSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.molpay.mobile.MOLPayExampleSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = rms.mobile.demo.applepay2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/MOLPayExampleSwift/MOLPayXDKBridge.h";

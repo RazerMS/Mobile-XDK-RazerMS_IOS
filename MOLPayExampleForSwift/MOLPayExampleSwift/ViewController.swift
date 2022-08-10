@@ -72,6 +72,9 @@ class ViewController: UIViewController, MOLPayLibDelegate {
             "mp_bill_name": "billname",
             "mp_bill_email": "email@domain.com",
             "mp_bill_mobile": "+1234567",
+            
+            // "mp_ap_merchant_ID": "merchant.com.rms.mobile.applepay", // Optional, Apple Pay Merchant ID
+            
             //"mp_channel_editing": NSNumber.init(booleanLiteral:false), // Option to allow channel selection.
             //"mp_editing_enabled": NSNumber.init(booleanLiteral:false), // Option to allow billing information editing.
             
